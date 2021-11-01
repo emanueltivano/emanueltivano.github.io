@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg width="100%" height="95" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 919.24 1280 96">
+  <mask height="345" width="821" y="135" x="232" maskUnits="userSpaceOnUse" mask-type="alpha" id="mask1">
+    <rect id="svg_1" fill="#3758FF" rx="25.6587" height="345" width="821" y="135" x="232" />
+  </mask>
+  <g>
+    <title>Layer 1</title>
+    <path id="svg_2" stroke-linejoin="round" stroke-linecap="square" stroke-width="2" stroke="white" d="m607.6,625.843l7.232,-1.677l11.931,51.468l-7.233,1.677l-11.93,-51.468z" />
+    <circle id="svg_3" stroke-linejoin="round" stroke-linecap="square" stroke-width="2" stroke="white" fill="white" transform="rotate(-13.0511 644.418 636.371)" r="4.96717" cy="636.371" cx="644.418" />
+    <path id="svg_4" stroke-linejoin="round" stroke-linecap="square" stroke-width="2" stroke="white" fill="white" d="m643.286,640.856l0.768,10.764l7.47,-1.731l-4.454,-10.103l-3.784,1.07z" />
+    <path id="svg_5" stroke-linejoin="round" stroke-linecap="square" stroke-width="2" stroke="white" fill="white" d="m607.889,625.639l11.504,51.28l7.47,-1.731l-12.513,-50.663l-6.461,1.114z" />
+    <path id="svg_6" fill="white" d="m646.75,612.748l0.698,3.012l8.394,-1.701l-1.682,-6.202l-7.41,4.891z" />
+    <path id="svg_7" fill="white" d="m619.65,619.284l0.698,3.011l8.394,-1.701l-1.682,-6.202l-7.41,4.892z" />
+    <path id="svg_8" stroke-linejoin="round" stroke-linecap="square" stroke-width="2" stroke="white" d="m620.678,622.116l-4.249,-18.333c-2.256,-9.729 3.803,-19.444 13.532,-21.699l0,0c9.728,-2.255 19.443,3.803 21.699,13.532l4.083,17.615" />
+    <path id="svg_9" stroke-linejoin="round" stroke-linecap="square" stroke-width="2" stroke="white" d="m628.472,620.523l-3.738,-16.122c-1.242,-5.359 2.095,-10.709 7.453,-11.951l0,0c5.358,-1.242 10.709,2.095 11.951,7.453l3.59,15.489" />
+    <path id="svg_10" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="white" d="m576.35,676.145c6.152,-4.428 23.049,-12.391 41.42,-8.818" />
+    <path id="svg_11" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="white" d="m563.935,637.96c6.51,-3.884 24.028,-10.366 42.024,-5.229" />
+    <path id="svg_12" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="white" d="m678.343,656.698c4.055,1.362 14.327,2.979 22.968,-1.44" />
+    <path id="svg_13" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="white" d="m662.888,667.368c3.288,2.014 16.379,5.066 22.889,1.458" />
+    <circle id="svg_14" stroke-linejoin="round" stroke-linecap="square" stroke-width="2" stroke="white" r="3.36299" cy="610.065" cx="592.441" />
+    <circle id="svg_15" stroke-linejoin="round" stroke-linecap="square" stroke-width="2" stroke="white" r="3.36299" cy="680.401" cx="715.387" />
+    <path id="svg_16" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="white" d="m687.121,587.987l0,6.28" />
+    <path id="svg_17" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="white" d="m683.89,591.127l6.279,0" />
+    <path id="svg_18" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="white" d="m622.119,693.646l0,6.197" />
+    <path id="svg_19" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="white" d="m618.931,696.743l6.197,0" />
+    <path id="svg_20" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.66319" stroke="white" d="m145.008,277.131c3.978,-0.056 7.157,-3.324 7.101,-7.3c-0.056,-3.975 -3.327,-7.152 -7.305,-7.096c-3.978,0.056 -7.157,3.325 -7.101,7.3c0.056,3.975 3.327,7.152 7.305,7.096z" />
+    <g id="svg_21" opacity="0.5">
+      <path id="svg_22" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.66319" stroke="white" d="m209.983,316.705l0.222,15.979" />
+      <path id="svg_23" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.66319" stroke="white" d="m202.102,324.808l15.991,-0.222" />
+    </g>
+    <path id="svg_24" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.66319" stroke="white" d="m63.0042,381.705l0,12" />
+    <path id="svg_25" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.66319" stroke="white" d="m56.9998,387.705l12.0084,0" />
+    <path id="svg_26" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.66319" stroke="white" d="m600.015,228.413l0.147,10.584" />
+    <path id="svg_27" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.66319" stroke="white" d="m594.796,233.781l10.591,-0.147" />
+    <path id="svg_30" fill="#02125F" d="m638.122,967.091c-395.991,-94.539 -638.122,-0.284 -638.122,-0.284l0,58.193l0,159l0,41l1280,0l0,-41l0,-159l0,-57.909c0,0 -245.89,94.539 -641.878,0z" clip-rule="evenodd" fill-rule="evenodd" />
+  </g>
+</svg>

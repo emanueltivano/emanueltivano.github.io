@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg width="100%" height="99" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 602.86 1280 99">
+  <mask height="703" width="1280" y="-2" x="0" maskUnits="userSpaceOnUse" mask-type="alpha" id="mask0">
+    <path id="svg_1" fill="#011DAA" d="m1280,-2l-1280,0l0,444l0,99l0,117.909c0,0 245.886,-94.538 641.878,0c395.992,94.539 638.122,0.284 638.122,0.284l0,-118.193l0,-99l0,-444z" clip-rule="evenodd" fill-rule="evenodd" />
+  </mask>
+  <g>
+    <title>Layer 1</title>
+    <path id="svg_2" fill="#011DAA" d="m1280,-2l-1280,0l0,444l0,99l0,117.909c0,0 245.886,-94.538 641.878,0c395.992,94.539 638.122,0.284 638.122,0.284l0,-118.193l0,-99l0,-444z" clip-rule="evenodd" fill-rule="evenodd" />
+  </g>
+</svg>

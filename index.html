@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="images/icono.svg">
+    <title>Emanuel Tivano</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="libraries/glider.js/glider.css">
+</head>
+
+<body id="principal">
+    <header class="inicio">
+        <div id="portada" class="cover-container d-flex flex-column justify-content-around mx-auto">
+            <div id="foto_portada" class="foto mx-auto my-4">
+            </div>
+
+            <div id="sobre_mi">
+                <h1 class="display-4 mb-5">Emanuel Tivano</h1>
+
+                <p class="lead">
+                    <b>Desarrollador Front End Junior</b> con experiencia en <span class="span">HTML5</span>, <span
+                        class="span">CSS3</span>,
+                    <span class="span">JavaScript</span>, <span class="span">JQuery</span> y <span
+                        class="span">Bootstrap</span>.
+                </p>
+            </div>
+
+            <a class="descargar" href="pdf/Curriculum Vitae.pdf" target="_blank">Descargar Curriculum
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="30"
+                    height="30" viewBox="0 0 24 24" stroke-width="1.85" stroke="#ffffff" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
+                    <polyline points="7 11 12 16 17 11">
+                        <animateTransform attributeType="XML" attributeName="transform" type="translate"
+                            values="0,0.75;0,-2;0,0.75" dur="1.25s" repeatCount="indefinite"></animateTransform>
+                    </polyline>
+                    <line x1="12" y1="4" x2="12" y2="16">
+                        <animateTransform attributeType="XML" attributeName="transform" type="translate"
+                            values="0,0.75;0,-2;0,0.75" dur="1.25s" repeatCount="indefinite"></animateTransform>
+                    </line>
+                </svg>
+            </a>
+
+            <div id="menu_portada" class="menu mb-4">
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link" href="#educacion">Educación</a>
+                    <a class="nav-link" href="#portafolio">Portafolio</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </nav>
+            </div>
+
+            <script>
+                $(document).ready(function () {
+                    $('a[href^="#"]').click(function () {
+                        var destino = $(this.hash);
+                        if (destino.length == 0) {
+                            destino = $('a[name="' + this.hash.substr(1) + '"]');
+                        }
+                        if (destino.length == 0) {
+                            destino = $('html');
+                        }
+                        $('html, body').animate({
+                            scrollTop: destino.offset().top
+                        });
+                        return false;
+                    });
+                });
+            </script>
+        </div>
+    </header>
+
+    <main>
+        <section id="educacion">
+            <div class="container-fluid">
+                <div class="row justify-content-between">
+                    <div class="col-md-5 px-0">
+                        <img class="mb-1 icono" src="images/icons/icono_tecnologias.svg" alt="">
+                        <h2 class="mb-1 titulo">Tecnologías</h2>
+
+                        <div id="glider-contain" class="col-md-5 glider-contain mx-auto">
+                            <div id="glider" class="glider">
+                                <div class="d-flex align-items-center flex-column">
+                                    <h4 class="bg-html">HTML</h4>
+                                    <img alt="HTML5 logo" src="images/html.png">
+                                </div>
+
+                                <div class="d-flex align-items-center flex-column">
+                                    <h4 class="bg-css">CSS</h4>
+                                    <img alt="CSS3 logo" src="images/css.png">
+                                </div>
+
+                                <div class="d-flex align-items-center flex-column">
+                                    <h4 class="bg-js">JavaScript</h4>
+                                    <img alt="Javascript logo" src="images/javascript.png">
+                                </div>
+
+                                <div class="d-flex align-items-center">
+                                    <img alt="JQuery logo" src="images/jquery.png">
+                                </div>
+
+                                <div class="d-flex align-items-center">
+                                    <img alt="Bootstrap logo" src="images/bootstrap.png">
+                                </div>
+                            </div>
+
+
+
+                            <button aria-label="Previous" class="glider-prev">«</button>
+
+                            <button aria-label="Next" class="glider-next">»</button>
+
+                            <div id="dots" class="glider-dots">
+                                <button data-index="0" aria-label="Page 1" role="tab"
+                                    class="glider-dot active"></button>
+                                <button data-index="1" aria-label="Page 2" role="tab" class="glider-dot "></button>
+                                <button data-index="2" aria-label="Page 3" role="tab" class="glider-dot "></button>
+                                <button data-index="3" aria-label="Page 4" role="tab" class="glider-dot "></button>
+                                <button data-index="4" aria-label="Page 5" role="tab" class="glider-dot "></button>
+                                <button data-index="5" aria-label="Page 6" role="tab" class="glider-dot "></button>
+                                <button data-index="6" aria-label="Page 7" role="tab" class="glider-dot "></button>
+                                <button data-index="7" aria-label="Page 8" role="tab" class="glider-dot "></button>
+                                <button data-index="8" aria-label="Page 9" role="tab" class="glider-dot "></button>
+                                <button data-index="9" aria-label="Page 10" role="tab" class="glider-dot "></button>
+                            </div>
+
+                            <script>
+                                window.addEventListener('load', function () {
+                                    new Glider(document.querySelector('.glider'), {
+                                        rewind: true,
+                                        slidesToShow: 1,
+                                        dots: '#dots',
+                                        arrows: {
+                                            prev: '.glider-prev',
+                                            next: '.glider-next'
+                                        }
+                                    });
+                                })
+                            </script>
+
+                            <script src="libraries/glider.js/glider.js"></script>
+                        </div>
+                    </div>
+
+                    <div class="col-md-7 px-0">
+                        <div class="mb-5">
+                            <img class="mb-2 icono" src="images/icons/icono_educacion.svg" alt="">
+                            <h2 class="mb-2 titulo">Educación</h2>
+
+                            <ul>
+                                <li class="texto">Diplomatura Professional Front End Developer &#40UTN&#41
+                                    <a href="pdf/certificado_utn.pdf" target="_blank"><img
+                                            src="images/icons/icono_ver.svg" alt="" class="icono"></a>
+                                </li>
+                                <li class="texto">Ingles Ciclo Básico V &#40CUI&#41
+                                    <a href="pdf/certificado_cui.pdf" target="_blank"><img
+                                            src="images/icons/icono_ver.svg" alt="" class="icono"></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <img class="mb-2 icono" src="images/icons/icono_certificados.svg" alt="">
+                            <h2 class="mb-2 titulo">Certificaciones:</h2>
+
+                            <ul>
+                                <li class="texto">Desarrollo Web en Bootstrap. &#40UTN&#41
+                                    <a href="pdf/certificado4.pdf" target="_blank"><img src="images/icons/icono_ver.svg"
+                                            alt="" class="icono"></a>
+                                </li>
+                                <li class="texto">Desarrollo Web en HTML 5, CSS3 y Javascript. &#40Avanzado&#41
+                                    <a href="pdf/certificado3.pdf" target="_blank"><img src="images/icons/icono_ver.svg"
+                                            alt="" class="icono"></a>
+                                </li>
+                                <li class="texto">Desarrollo Web con JavaScript. &#40UTN&#41
+                                    <a href="pdf/certificado2.pdf" target="_blank"><img src="images/icons/icono_ver.svg"
+                                            alt="" class="icono"></a>
+                                </li>
+                                <li class="texto">Desarrollo Web en HTML5 y CSS3. &#40UTN&#41
+                                    <a href="pdf/certificado1.pdf" target="_blank"><img src="images/icons/icono_ver.svg"
+                                            alt="" class="icono"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portafolio">
+            <img class="mb-3 icono" src="images/icons/icono_portafolio.svg" alt="">
+            <h2 class="mb-3 titulo titulo_portafolio">Portafolio:</h2>
+
+            <div class="container-fluid">
+                <div class="row justify-content-around">
+                    <a href="https://www.google.com/" target="_blank" class="col-md-5 caja px-0">
+                        <div class="imagen proyecto1"></div>
+                        <div class="descripcion">
+                            <h3 class="titulo">Hotel</h3>
+
+                            <p class="texto">Un proyecto de ejemplo para un hotel, con varias secciones en las
+                                cuales se muestran las habitaciones, la ubicación y los salones.</p>
+
+                            <div class="etiquetas etiquetas_grandes">
+                                <span class="badge rounded-pill bg-personal">HTML</span>
+                                <span class="badge rounded-pill bg-personal">CSS</span>
+                                <span class="badge rounded-pill bg-personal">JavaScript</span>
+                                <span class="badge rounded-pill bg-personal">JQuery</span>
+                            </div>
+                            <span class="badge rounded-pill bg-success estado">Online</span>
+                        </div>
+                    </a>
+
+                    <a class="col-md-5 caja px-0">
+                        <div class="imagen proyecto2"></div>
+                        <div class="descripcion">
+                            <h3 class="titulo">Invertir en Bolsa</h3>
+
+                            <p class="texto">Un proyecto propio que tiene la finalidad de brindar información acerca
+                                del mercado de capitales y las inversiones en general.</p>
+
+                            <div class="etiquetas">
+                                <span class="badge rounded-pill bg-personal">HTML</span>
+                                <span class="badge rounded-pill bg-personal">CSS</span>
+                                <span class="badge rounded-pill bg-personal">JavaScript</span>
+                            </div>
+                            <span class="badge rounded-pill bg-info estado">En renovación</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="row justify-content-around">
+                    <a class="col-md-5 caja px-0">
+                        <div class="imagen proyecto3"></div>
+                        <div class="descripcion">
+                            <h3 class="titulo">Emprendimiento</h3>
+
+                            <p class="texto">Es un proyecto freelance para el emprendimiento de dos electricistas en
+                                el cual se detallan todos los servicios que ofrecen.</p>
+
+                            <div class="etiquetas">
+                                <span class="badge rounded-pill bg-personal">HTML</span>
+                                <span class="badge rounded-pill bg-personal">CSS</span>
+                                <span class="badge rounded-pill bg-personal">JavaScript</span>
+                            </div>
+                            <span class="badge rounded-pill bg-secondary estado">En proceso</span>
+                        </div>
+                    </a>
+                    <a class="col-md-5 caja px-0">
+                        <div class="imagen proyecto4"></div>
+                        <div class="descripcion">
+                            <h3 class="titulo">E-commerce</h3>
+
+                            <p class="texto">Una página de ejemplo para una tienda de componentes para PC, con toda
+                                la estructura de pagos y las consultas sobre los productos.</p>
+
+                            <div class="etiquetas etiquetas_grandes">
+                                <span class="badge rounded-pill bg-personal">HTML</span>
+                                <span class="badge rounded-pill bg-personal">CSS</span>
+                                <span class="badge rounded-pill bg-personal">JQuery</span>
+                                <span class="badge rounded-pill bg-personal">Bootstrap</span>
+                            </div>
+                            <span class="badge rounded-pill bg-secondary estado">En proceso</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <a id="volver_arriba">
+            <svg xmlns="http://www.w3.org/2000/svg" height="75" viewBox="0 0 24 24" width="75" fill="#ffffff"
+                stroke="none">
+                <path d="M0 0h24v24H0V0z" fill="none" />
+                <path
+                    d="M11.29 8.71L6.7 13.3c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 10.83l3.88 3.88c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L12.7 8.71c-.38-.39-1.02-.39-1.41 0z" />
+            </svg>
+        </a>
+
+        <script>
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 400) {
+                    $("#volver_arriba").addClass('show');
+                } else {
+                    $("#volver_arriba").removeClass('show');
+                }
+            });
+
+            $("#volver_arriba").on('click', function (e) {
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: 0
+                }, '250');
+            });
+        </script>
+
+        <a id="color_oscuro" onclick="modoOscuro()">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="45" height="55"
+                viewBox="0 0 24 14" stroke-width="1.5" stroke="none" fill="#ffffff" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+            </svg>
+        </a>
+
+        <script>
+            $('#color_oscuro').on('click', function () {
+                $('head').append(
+                    '<style class="estilo">.container-fluid ul li:before {color: #3e64ff;}</style>');
+                $("#color_oscuro").hide()
+                $("#color_claro").show()
+            });
+        </script>
+
+        <a id="color_claro" onclick="modoClaro()" style="display: none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sun" width="45" height="60"
+                viewBox="0 0 24 14" stroke-width="1.5" stroke="#010327" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <circle cx="12" cy="12" r="4" stroke="#010327" />
+                <path stroke="#010327"
+                    d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" />
+            </svg>
+        </a>
+
+        <script>
+            $('#color_claro').on('click', function () {
+                $("style.estilo").remove();
+                $("#color_claro").hide()
+                $("#color_oscuro").show()
+            });
+        </script>
+    </main>
+
+    <footer id="contacto">
+        <section id="formulario" class="my-0 ">
+            <img class="mb-2" src="images/icons/icono_contacto.svg" alt="">
+            <h3 class="mb-2">Contacto</h3>
+
+            <script type="text/javascript">
+                var submitted = false;
+            </script>
+
+            <form name="gform" id="gform" enctype="text/plain"
+                action="https://docs.google.com/forms/d/e/1FAIpQLScsqYXggAzamtOpFxt4tR4LACZLmiBFMGslnC1Di4p3zLoGQw/formResponse?"
+                target="hidden_iframe" onsubmit="submitted=true;">
+                <div>
+                    <label class="etiqueta_form" for="entry.2005620554">Ingrese su nombre y apellido:</label>
+                    <br>
+                    <input type="text" placeholder="Nombre y Apellido:" id="entry.2005620554" autocomplete="off"
+                        name="entry.2005620554" required minlength="5" class="input">
+                </div>
+
+                <div>
+                    <label class="etiqueta_form" for="entry.1045781291">Ingrese su correo electrónico:</label>
+                    <br>
+                    <input type="email" placeholder="Correo Electrónico:" id="entry.1045781291" name="entry.1045781291"
+                        autocomplete="off" required class="input">
+                </div>
+
+                <div>
+                    <label class="etiqueta_form" for="entry.839337160">Ingrese su mensaje:</label>
+                    <br>
+                    <textarea placeholder="Mensaje:" id="entry.839337160" name="entry.839337160" autocomplete="off"
+                        rows="5" required minlength="10" maxlength="50" class="textarea"></textarea>
+                </div>
+
+                <div id="enviado">
+                    <span>¡¡¡Su mensaje ha sido enviado correctamente!!!</span>
+                </div>
+
+                <input id="enviar" type="submit" value="Enviar">
+            </form>
+
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+            <script type="text/javascript">
+                $('#gform').on('submit', function (e) {
+                    $("#enviado").animate({
+                        'opacity': 1
+                    }, 'slow').delay(2500).animate({
+                        'opacity': 0
+                    }, 'slow');
+                });
+            </script>
+        </section>
+
+        <section id="redes">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/emanuel-tivano/?originalSubdomain=ar" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="95" height="95" viewBox="0 0 25 31"
+                                class="svg" id="linkedin" fill="none" stroke="#ffffff" stroke-width="0.85">
+                                <path
+                                    d="m19.68748,2.43743l-14,0c-2.761,0 -5,2.239 -5,5l0,14c0,2.761 2.239,5 5,5l14,0c2.762,0 5,-2.239 5,-5l0,-14c0,-2.761 -2.238,-5 -5,-5zm-11,19l-3,0l0,-11l3,0l0,11zm-1.5,-12.268c-0.966,0 -1.75,-0.79 -1.75,-1.764s0.784,-1.764 1.75,-1.764s1.75,0.79 1.75,1.764s-0.783,1.764 -1.75,1.764zm13.5,12.268l-3,0l0,-5.604c0,-3.368 -4,-3.113 -4,0l0,5.604l-3,0l0,-11l2.37502,0l0.18749,0.64003c2.33347,-1.77352 7.43749,-1.65203 7.43749,3.60097l0,6.759z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/EmanuelTivano" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="svg" width="100" height="100"
+                                viewBox="0 0 24 24" stroke-width="0.65" stroke="#ffffff" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/emanueltivano" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="-1 0 30 26"
+                                class="svg" fill="none" stroke-width="0.85" stroke="#ffffff" id="github">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

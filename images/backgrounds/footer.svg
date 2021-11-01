@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg width="100%" height="170" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 1400.82 2688 175">
+  <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="724" y="249" width="1234" height="519">
+    <rect x="724" y="249" width="1233.43" height="518.31" rx="38.5483" fill="#3758FF" id="svg_1" />
+  </mask>
+  <g>
+    <title>Layer 1</title>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="m1338.18,1506.14c-593.983,-141.81 -957.18,-0.43 -957.18,-0.43c0,0 -229.5,107.79 -382.5,0.43l0,86.86l-4.5,0l0,300l2694,0l0,-61.5l4,0l0,-325.79c-97.8,-117.27 -391,0.43 -391,0.43c0,0 -368.83,141.8 -962.82,0z" fill="#02125F" id="svg_4" />
+  </g>
+</svg>
