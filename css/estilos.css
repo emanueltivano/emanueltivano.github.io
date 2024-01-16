@@ -50,7 +50,7 @@ header::after {
 
 .lead {
 	font-size: x-large;
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
 }
 
 .descargar {
@@ -420,7 +420,7 @@ form .textarea {
 
 form .textarea::-webkit-input-placeholder {
 	margin: auto 0;
-	font-size: 0.525em;
+	font-size: 1.05em;
 	font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -1192,7 +1192,7 @@ label {
 
 	#enviar {
 		width: 100px;
-		height: 45px;
+		height: 45px;;
 	}
 
 	#volver_arriba {
